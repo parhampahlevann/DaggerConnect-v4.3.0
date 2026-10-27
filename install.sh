@@ -14,4 +14,4 @@ echo "[*] Extracting ..."
 unzip -o "${ZIP}"
 
 echo "[*] Running installer ..."
-sudo bash "./${DIR}/install.sh"
+sudo bash "./${DIR}/install.sh" < /dev/tty
